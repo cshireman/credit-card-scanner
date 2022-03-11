@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'CreditCardScanner'
   s.version          = '0.1.0'
   s.summary          = 'A library to scan credit card info using the device camera and on-device machine learning'
-  s.homepage         = 'https://github.com/yhkaplan/credit-card-scanner'
+  s.homepage         = 'https://github.com/cshireman/credit-card-scanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2' TODO:
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'Joshua Kaplan' => 'yhkaplan@gmail.com' }
