@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/yhkaplan'
   s.ios.deployment_target = '13.0'
   s.swift_versions = ['5.1', '5.2', '5.3']
-  s.dependency       = 'Reg', '~> 0.3.0' # TODO: Actually implement cococapods support
-  s.dependency       = 'Sukar', '~> 0.1.0' # TODO: actually implement Cocoapods support
+  s.dependency  'Reg', '~> 0.3.0' # TODO: Actually implement cococapods support
+  s.dependency  'Sukar', '~> 0.1.0' # TODO: actually implement Cocoapods support
   s.static_framework = true
   s.source_files = 'Sources/**/*.{swift,h,m}'
 end
